@@ -9,6 +9,12 @@ A reproducible analysis of historical US college data comparing an eight-predict
 
 **Tools:** Python, pandas, matplotlib, statsmodels, scikit-learn.
 
+### [Estimating Income Inequality Using Bootstrapping](income-inequality-bootstrap/)
+
+An applied statistical analysis of income inequality in South Africa using percentile-based measures and bootstrap resampling. Estimates the P90/P10 income ratio, constructs 95% bootstrap confidence intervals, and examines differences in income inequality across population groups.
+
+**Tools:** Python, pandas, NumPy, matplotlib, statistical inference and bootstrapping.
+
 ## Run locally
 
 ```bash
