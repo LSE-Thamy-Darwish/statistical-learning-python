@@ -15,6 +15,12 @@ An applied statistical analysis of income inequality in South Africa using perce
 
 **Tools:** Python, pandas, NumPy, matplotlib, statistical inference and bootstrapping.
 
+### [Monte Carlo Simulation of Election Outcomes](election-monte-carlo-simulation/)
+
+A simulation-based analysis of Peru's 2021 presidential runoff election, examining how sample size affects the reliability of election outcome predictions. Uses 1,000 Monte Carlo simulations to compare samples of 5 and 100 voting tables, assess sampling variability, and illustrate the challenges of predicting outcomes in closely contested elections.
+
+**Tools:** Python, pandas, NumPy, matplotlib, Monte Carlo simulation, statistical inference.
+
 ## Run locally
 
 ```bash
@@ -25,7 +31,15 @@ jupyter notebook analysis.ipynb
 
 ## Academic and data attribution
 
-This is an independently written portfolio analysis using techniques practised in PP422, not a copy of a graded submission or assignment questions. The `College` dataset is a historical educational dataset associated with *An Introduction to Statistical Learning* (ISLR/ISLP); credit remains with its original creators. It is included for reproducibility, not as contemporary institutional data.
+The projects in this repository are independently written portfolio analyses developed using statistical and computational techniques studied in PP422 at the London School of Economics and Political Science (LSE). They are not direct reproductions of graded submissions or assignment questions.
+
+The analyses draw on the following datasets:
+
+- **College Graduation Prediction:** The `College` dataset, associated with *An Introduction to Statistical Learning* (ISLR/ISLP), is used for educational and reproducibility purposes. Credit remains with its original creators.
+- **Income Inequality and Bootstrapping:** South African income survey data from the Post-Apartheid Labour Market Series (PALMS). The original dataset is not redistributed in this repository.
+- **Monte Carlo Simulation of Election Outcomes:** Voting-table data from Peru's 2021 presidential runoff election, used to examine sampling variability and electoral uncertainty. The original dataset is not redistributed in this repository.
+
+All analyses, interpretations, and visualisations are presented for educational and portfolio purposes. Original data sources retain their respective attribution and usage rights.
 
 ## Limitations
 
